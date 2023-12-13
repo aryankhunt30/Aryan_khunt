@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.container {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+     /* Dark background color */
+    color: black; /* Light text color */
+}
+
+.form-layout {
+    border-radius: 15px;
+    width: 500px;
+    background-color: #ffffff; /* White background for forms */
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #888888; /* Box shadow for a subtle lift */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message-text {
+    color: white;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40 !important; /* Dark navbar background */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* Light text color for brand */
+}
+
+.nav-link {
+    color: #ffffff !important; /* Light text color for links */
+}
+
+/* Table Styling */
+.table {
+    background-color: #ffffff; /* White background for tables */
+    box-shadow: 0px 0px 10px 0px #888888; /* Box shadow for a subtle lift */
+}
+
+.table th {
+    background-color: #343a40; /* Dark header background color */
+    color: #ffffff; /* Light text color for header cells */
+}
+
+.table td,
+.table th {
+    border: 1px solid #dee2e6; /* Light gray border for cells */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Alternate row background color */
+}
+
+/* Toggle Button Styling */
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the toggle button */
+}
+.p1 {
+    text-size-adjust: 20px;
+}
